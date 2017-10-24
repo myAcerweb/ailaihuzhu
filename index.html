@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>爱来互助</title>
+   <script  src="./static/lCalendar.min.js"></script>
+   <!-- <script type="text/javascript" src="./static/main.js"></script>
+   <script type="text/javascript" src="./static/flexible.js"></script> -->
+    <script>
+        (function () {
+            window.addEventListener("orientation" in window ? "deviceorientation" : "resize", setSize);
+            setSize();
+            function setSize() {
+                var html = document.documentElement;
+                var hWidth = html.getBoundingClientRect().width;
+                html.style.fontSize = hWidth / 15 + "px";//根据不同的屏幕宽度重置html的字体大小
+            }
+        })()
+
+
+        
+
+
+
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+   
+  </body>
+</html>

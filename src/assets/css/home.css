@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document 
+
+  /*CSS全局设置*/  
+    *{  
+       margin:0;  
+       padding:0;  
+    }
+a{ text-decoration:none;}
+li{ list-style: none; }
+img{margin:0;padding:0; border:none;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{ margin:0; padding:0 }
+
+body{ width:100%; margin: 0 auto; font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;}
+
+input,select,textarea{outline:none; background-color:#fafafa;}
+textarea{resize:none;border:none;}
+.alhz{
+	background:rgba(208,2,27,0.90);
+	box-shadow:0 0 0 0 #b2b2b2;
+	width:100%;
+	height:64px;
+	line-height: 64px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.shi{
+	width: 100%;
+}
+.shi img{
+	width: 100%;
+	height: auto;
+}
+.in_sheng{
+	width: 100%;
+	overflow: hidden;
+
+	background:#f6eff0;
+	line-height:65px;
+}
+.in_sheng .in_le{
+	width: 30px;
+	float: left;
+	padding:0 15px;
+}
+.in_sheng .in_le img{
+	width: 80%;
+
+}
+.in_sheng .gun{
+	width: 300px;
+	float: left;
+	line-height: 60px;
+	display: block;
+	color: #90696E;
+
+}
+.in_list{
+	background:#fafafa;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.30);
+	width: 100%;
+}
+.in_list ul{
+	width: 100%;
+	overflow: hidden;
+	padding:2rem 0 1rem;
+}
+.in_list ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	background:rgba(250,250,250,0.00);
+	
+}
+.in_list ul li img{
+	width: 60px;
+	height: 45px;
+	
+}
+.in_list ul li>span{
+	display: block;
+	text-align: center;
+	font-family:PingFangSC-Regular;
+	font-size:24px;
+	color:#666666;
+	letter-spacing:-0.58px;
+}
+.ailai{
+	margin-top: 20px;
+	width: 100%;
+	padding-top: 20px;
+	background:#fafafa;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.30);
+}
+.ailai h2{
+	font-size:28px; 
+	height: 40px;
+	padding-left: 15px;
+
+}
+.ailai h3{
+    font-size:24px; 
+    color: #BDBDBD;
+	padding-left: 15px;
+
+}
+
+.ailai .in_dl{
+	width:100%;
+}
+.ailai .in_dl dl{
+	padding: 0 15px;
+}
+.ailai .in_dl dt img{
+	width: 100%;
+	padding: 20px 0;
+}
+.ailai .in_dl dd{
+	font-family:PingFangSC-Regular;
+	font-size:24px;
+	color:#666666;
+	letter-spacing:-0.58px;
+	line-height:40px;
+	text-align:justify;
+}
+.di_border{
+	border:0 solid rgba(151,151,151,0.38);
+	width:95%;
+	height:0.5px;
+	margin: 0 auto;
+	background: #E7E7E7;
+	margin-top: 20px;
+}
+.di_yue{
+	font-family:PingFangSC-Regular;
+	font-size:24px;
+	color:#d0011b;
+	letter-spacing:-0.58px;
+	text-align:justify;
+	text-align: right;
+	padding:15px 0;
+	padding-right: 15px;
+}
+
+.in_jia{
+	background:#fafafa;
+	width:100%;
+	margin-top: 20px;
+    padding-bottom: 20px;
+}
+.in_jia h1{
+	padding: 20px 15px 0;
+	font-family:PingFangSC-Medium;
+	font-size:28px;
+	color:#333333;
+	letter-spacing:-0.68px;
+	text-align:left;
+	height: 75px;
+
+}
+
+.jia_top{
+	background:#ffffff;
+	padding: 0 15px;
+/*	height:235px;
+*/}
+.jia_top a{
+	display: block;
+	border-radius:2px;
+	height:auto;
+}
+
+.jia_top img{
+	width: 100%;
+	height: auto;
+}
+
+.di_kang{
+	width: 100%;
+	margin-top: 20px;
+}
+.di_kang dl{
+	overflow: hidden;
+	padding:15px;
+	border-bottom: 2px solid #EBEBEB;
+
+}
+.di_kang .in_de_none{
+	border: none;
+}
+.di_kang dl dt{
+	width: 35%;
+	float: left;
+	overflow: hidden;
+}
+.di_kang dl dt img{
+	width: 100%;
+    height: auto;
+    border-radius: 1px;
+
+}
+.di_kang dl dd{
+	width: 59%;
+	float: left;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+}
+.di_kang dl dd span{
+	font-family:PingFangSC-Regular;
+	font-size:18px;
+	color:#999999;
+	letter-spacing:-0.43px;
+	text-align:left;
+}
+.di_kang dl dd .sp_1{
+	font-family:PingFangSC-Medium;
+	font-size:24px;
+	color:#333333;
+	letter-spacing:-0.58px;
+	line-height:24px;
+	text-align:left;
+}
+.di_kang dl dd .sp_2{
+	margin-top: 10px;
+	display: block;
+}
+
+.in_cen{
+	width: 100%;
+	border-radius:1px;
+	margin-bottom: 20px;
+}
+.in_cen .ce_top{
+	padding: 0 15px;
+}
+.in_cen .ce_top a{
+	display: block;
+}
+.in_cen .ce_top img{
+	width: 100%;
+	height: auto;
+}
+.foot_list{
+	width: 100%;
+	background: #F9F9F9;
+	padding: 15px 0;
+
+}
+.foot_list ul{
+	width: 100%;
+	overflow: hidden;
+}
+.foot_list li{
+	width: 24%;
+	float: left;
+	text-align: center;
+}
+.foot_list li img{
+	width: 22px;
+	height: 22px
+}
+.foot_list li a{
+	display: block;
+}
+.foot_list li img>span{
+	display: block;
+	font-family:PingFangSC-Regular;
+	font-size:10px;
+	color:#d0011b;
+	letter-spacing:0.12px;
+	text-align:center;
+
+}
